@@ -9,9 +9,10 @@ import UIKit
 
 class MainViewController: UITableViewController {
     
-    let restaurantNames = ["1","2","3","4"]
+    let restaurantNames = ["1","2","3"]
     
-
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -26,12 +27,22 @@ class MainViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        cell.textLabel?.text = restaurantNames[indexPath.row]
-        cell.imageView?.image = UIImage(named: restaurantNames[indexPath.row])
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! CustomTableViewCell
+        
+        cell.nameLabel.text = restaurantNames[indexPath.row]
+        cell.imageOfPlace.image = UIImage(named: restaurantNames[indexPath.row])
+        
+        cell.imageView?.layer.cornerRadius = cell.imageOfPlace.frame.size.height / 2
+        cell.imageView?.clipsToBounds = true
         
         
         return cell
+    }
+    
+    //MARK: - Table view delegate
+    
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 100
     }
 
     
