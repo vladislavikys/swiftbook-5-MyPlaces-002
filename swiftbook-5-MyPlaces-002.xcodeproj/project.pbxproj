@@ -16,6 +16,7 @@
 		F523EDDA299B6FF5006E72CF /* swiftbook_5_MyPlaces_002Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F523EDD9299B6FF5006E72CF /* swiftbook_5_MyPlaces_002Tests.swift */; };
 		F523EDE4299B6FF5006E72CF /* swiftbook_5_MyPlaces_002UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F523EDE3299B6FF5006E72CF /* swiftbook_5_MyPlaces_002UITests.swift */; };
 		F523EDE6299B6FF5006E72CF /* swiftbook_5_MyPlaces_002UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F523EDE5299B6FF5006E72CF /* swiftbook_5_MyPlaces_002UITestsLaunchTests.swift */; };
+		F5A66011299BC41300FC80D5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A66010299BC41300FC80D5 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		F523EDDF299B6FF5006E72CF /* swiftbook-5-MyPlaces-002UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swiftbook-5-MyPlaces-002UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F523EDE3299B6FF5006E72CF /* swiftbook_5_MyPlaces_002UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftbook_5_MyPlaces_002UITests.swift; sourceTree = "<group>"; };
 		F523EDE5299B6FF5006E72CF /* swiftbook_5_MyPlaces_002UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftbook_5_MyPlaces_002UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F5A66010299BC41300FC80D5 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				F523EDC2299B6FF4006E72CF /* AppDelegate.swift */,
 				F523EDC4299B6FF4006E72CF /* SceneDelegate.swift */,
 				F523EDC6299B6FF4006E72CF /* ViewController.swift */,
+				F5A66010299BC41300FC80D5 /* MainViewController.swift */,
 				F523EDC8299B6FF4006E72CF /* Main.storyboard */,
 				F523EDCB299B6FF4006E72CF /* Assets.xcassets */,
 				F523EDCD299B6FF4006E72CF /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 				F523EDC7299B6FF4006E72CF /* ViewController.swift in Sources */,
 				F523EDC3299B6FF4006E72CF /* AppDelegate.swift in Sources */,
 				F523EDC5299B6FF4006E72CF /* SceneDelegate.swift in Sources */,
+				F5A66011299BC41300FC80D5 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
