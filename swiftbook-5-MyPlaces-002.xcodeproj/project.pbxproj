@@ -17,6 +17,7 @@
 		F523EDDA299B6FF5006E72CF /* swiftbook_5_MyPlaces_002Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F523EDD9299B6FF5006E72CF /* swiftbook_5_MyPlaces_002Tests.swift */; };
 		F523EDE4299B6FF5006E72CF /* swiftbook_5_MyPlaces_002UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F523EDE3299B6FF5006E72CF /* swiftbook_5_MyPlaces_002UITests.swift */; };
 		F523EDE6299B6FF5006E72CF /* swiftbook_5_MyPlaces_002UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F523EDE5299B6FF5006E72CF /* swiftbook_5_MyPlaces_002UITestsLaunchTests.swift */; };
+		F54EA9F4299D14DE007E08CA /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54EA9F3299D14DE007E08CA /* StorageManager.swift */; };
 		F5A66011299BC41300FC80D5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A66010299BC41300FC80D5 /* MainViewController.swift */; };
 		F5A66013299BC9D900FC80D5 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A66012299BC9D900FC80D5 /* CustomTableViewCell.swift */; };
 		F5A66015299BD0AB00FC80D5 /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A66014299BD0AB00FC80D5 /* PlaceModel.swift */; };
@@ -57,6 +58,7 @@
 		F523EDDF299B6FF5006E72CF /* swiftbook-5-MyPlaces-002UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swiftbook-5-MyPlaces-002UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F523EDE3299B6FF5006E72CF /* swiftbook_5_MyPlaces_002UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftbook_5_MyPlaces_002UITests.swift; sourceTree = "<group>"; };
 		F523EDE5299B6FF5006E72CF /* swiftbook_5_MyPlaces_002UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftbook_5_MyPlaces_002UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F54EA9F3299D14DE007E08CA /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		F5A66010299BC41300FC80D5 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		F5A66012299BC9D900FC80D5 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		F5A66014299BD0AB00FC80D5 /* PlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceModel.swift; sourceTree = "<group>"; };
@@ -95,7 +97,6 @@
 				7BDD49C3464C3C9AC4549522 /* Pods-swiftbook-5-MyPlaces-002.debug.xcconfig */,
 				ABE45C1090395C421D5C63FB /* Pods-swiftbook-5-MyPlaces-002.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -139,6 +140,7 @@
 				F5A66012299BC9D900FC80D5 /* CustomTableViewCell.swift */,
 				F5A66016299BD6BC00FC80D5 /* NewPlaceViewController.swift */,
 				F5A66014299BD0AB00FC80D5 /* PlaceModel.swift */,
+				F54EA9F3299D14DE007E08CA /* StorageManager.swift */,
 				F523EDC8299B6FF4006E72CF /* Main.storyboard */,
 				F523EDCB299B6FF4006E72CF /* Assets.xcassets */,
 				F523EDCD299B6FF4006E72CF /* LaunchScreen.storyboard */,
@@ -346,6 +348,7 @@
 				F523EDC3299B6FF4006E72CF /* AppDelegate.swift in Sources */,
 				F523EDC5299B6FF4006E72CF /* SceneDelegate.swift in Sources */,
 				F5A66011299BC41300FC80D5 /* MainViewController.swift in Sources */,
+				F54EA9F4299D14DE007E08CA /* StorageManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

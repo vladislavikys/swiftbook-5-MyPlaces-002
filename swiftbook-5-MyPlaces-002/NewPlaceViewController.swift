@@ -9,7 +9,7 @@ import UIKit
 
 class NewPlaceViewController: UITableViewController, UINavigationControllerDelegate {
     
-    var newPlace: Place?
+    var newPlace = Place()
     var imageIsChanged = false
     
     @IBOutlet var placeImage: UIImageView!
@@ -22,6 +22,11 @@ class NewPlaceViewController: UITableViewController, UINavigationControllerDeleg
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+       
+        DispatchQueue.main.async {
+            self.newPlace.savePlaces()
+        }
         
         tableView.tableFooterView = UIView()
         saveButton.isEnabled = false
@@ -74,12 +79,12 @@ class NewPlaceViewController: UITableViewController, UINavigationControllerDeleg
         }else{
             image = UIImage(systemName: "photo")
         }
-        
-        newPlace = Place(name: placeName.text! ,
-                         location: placeLocation.text,
-                         type: placeType.text,
-                         image: image,
-                         restaurantImage: nil)
+//
+//        newPlace = Place(name: placeName.text! ,
+//                         location: placeLocation.text,
+//                         type: placeType.text,
+//                         image: image,
+//                         restaurantImage: nil)
     }
     
     @IBAction func cancelAction(_ sender: Any){
