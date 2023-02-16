@@ -72,6 +72,7 @@
                                     <outlet property="locationLabel" destination="n9T-eg-TY9" id="ve2-h6-286"/>
                                     <outlet property="nameLabel" destination="EKs-0V-83b" id="xS0-IB-z76"/>
                                     <outlet property="typeLabel" destination="o4S-XT-UNk" id="AJb-P0-jba"/>
+                                    <segue destination="l9e-HT-gkL" kind="show" identifier="showDetail" id="8lZ-I7-pFH"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -80,7 +81,7 @@
                             <outlet property="delegate" destination="3fh-gD-VkT" id="wBf-To-uQQ"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="mY Pl a ce " id="yfz-Oh-UnV">
+                    <navigationItem key="navigationItem" title="mY Pl a ce " largeTitleDisplayMode="never" id="yfz-Oh-UnV">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="q8q-ub-0TR">
                             <connections>
                                 <segue destination="AWR-i6-Sxq" kind="show" id="frX-ui-4bC"/>
@@ -245,10 +246,10 @@
                             <outlet property="delegate" destination="l9e-HT-gkL" id="4q0-sy-pbj"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="MY place" id="JdD-bd-BfI">
+                    <navigationItem key="navigationItem" title="MY place" largeTitleDisplayMode="always" id="JdD-bd-BfI">
                         <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="QQG-oi-2r4">
                             <connections>
-                                <action selector="cancelAction:" destination="l9e-HT-gkL" id="0H3-sJ-FY0"/>
+                                <action selector="cancelAction:" destination="l9e-HT-gkL" id="el6-h9-Jig"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" style="done" systemItem="save" id="Qxd-LR-8Y4">
@@ -268,15 +269,15 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="09X-0J-5kr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="BrN-Fv-5T6" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="2035" y="25"/>
+            <point key="canvasLocation" x="2339" y="25"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="0nR-YR-ahV">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="cwZ-At-bqr" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ywe-yM-JUf">
-                        <rect key="frame" x="0.0" y="48" width="414" height="44"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="ywe-yM-JUf">
+                        <rect key="frame" x="0.0" y="48" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -308,6 +309,9 @@
             <point key="canvasLocation" x="1994" y="-696"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="8lZ-I7-pFH"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="folder.fill" catalog="system" width="128" height="96"/>
         <systemColor name="systemBackgroundColor">
